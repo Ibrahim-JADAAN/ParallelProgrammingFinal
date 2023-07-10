@@ -1,7 +1,5 @@
 package com.ibrahim.jadaan.SQLConnection;
 
-import jdk.jfr.Unsigned;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
