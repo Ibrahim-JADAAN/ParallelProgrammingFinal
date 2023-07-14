@@ -51,7 +51,6 @@ public class SQLServerConnector {
             resultSet = queryStatement.executeQuery(selectionQuery);
             if (resultSet.next()) {
                 lastInsertedId = resultSet.getInt(1);
-                System.out.println("Last inserted ID: " + lastInsertedId);
             }
 
             // Close the resources
